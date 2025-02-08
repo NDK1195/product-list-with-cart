@@ -1,14 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
 @import "tailwindcss";
 
 @theme {
-      --font-red-hat-text: "Red Hat Text", 'serif';
-      --color-red-1: #C73B0F;
-      --color-rose-900-1: #260F08;
-      --color-rose-500-1: #87635A;
-      --color-rose-400-1: #AD8A85;
-      --color-rose-300-1: #CAAFA7;
-      --color-rose-100-1: #F5EEEC;
-      --color-rose-50-1: #FCF8F6;
-      --color-green-1: #1EA575;
+  --font-red-hat-text: "Red Hat Text", "serif";
+  --color-red-1: #c73b0f;
+  --color-rose-900-1: #260f08;
+  --color-rose-500-1: #87635a;
+  --color-rose-400-1: #ad8a85;
+  --color-rose-300-1: #caafa7;
+  --color-rose-100-1: #f5eeec;
+  --color-rose-50-1: #fcf8f6;
+  --color-green-1: #1ea575;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#modal::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#modal {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
